@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Memory Game</string>
+    <string name="ganache"><b> Echo Dot </b> <br></br>
+
+Meet Echo Dot with clock - Our most popular smart speaker with Alexa. The sleek, compact design delivers crisp vocals and balanced bass for full sound.
+    </string>
+    <string name="Hoya"><b>Echo Show 15 </b> <br/>
+
+
+Alexa can show you even more – With a 15.6" Full HD (1080p) smart display and 5 MP camera, family organization and entertainment will look brilliant. You can choose portrait or landscape orientation.
+    </string>
+    <string name="Halo"> <b> Halo View </b> <br></br>
+
+More than just counting steps — Access key Halo health metrics like heart rate, Activity points, Sleep score, and on-demand blood oxygen levels on the Halo View color touch display.
+    </string>
+    <string name="Frames"><b> Echo Frames </b> <br></br>
+
+Meet Echo Frames - All-day glasses with hands-free access to Alexa.
+    </string>
 </resources>

@@ -8,8 +8,8 @@
 
     <ImageButton
         android:id="@+id/imageButton1"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="108dp"
+        android:layout_height="104dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="24dp"
         android:scaleType="centerCrop"
@@ -20,8 +20,8 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="108dp"
+        android:layout_height="104dp"
         android:layout_marginEnd="48dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,8 +31,8 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="108dp"
+        android:layout_height="104dp"
         android:layout_marginTop="24dp"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="@+id/imageButton1"
@@ -42,8 +42,8 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="108dp"
+        android:layout_height="104dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toTopOf="@+id/imageButton3"
@@ -52,8 +52,8 @@
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="108dp"
+        android:layout_height="104dp"
         android:layout_marginTop="24dp"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="@+id/imageButton3"
@@ -63,8 +63,8 @@
 
     <ImageButton
         android:id="@+id/imageButton6"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="108dp"
+        android:layout_height="104dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="@+id/imageButton4"
         app:layout_constraintTop_toTopOf="@+id/imageButton5"
@@ -73,8 +73,8 @@
 
     <ImageButton
         android:id="@+id/imageButton7"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="108dp"
+        android:layout_height="104dp"
         android:layout_marginTop="24dp"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="@+id/imageButton5"
@@ -84,24 +84,60 @@
 
     <ImageButton
         android:id="@+id/imageButton8"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="108dp"
+        android:layout_height="104dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="@+id/imageButton6"
         app:layout_constraintTop_toTopOf="@+id/imageButton7"
         app:srcCompat="@drawable/amazon"
         tools:srcCompat="@drawable/ic_launcher_foreground" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:fontFamily="@font/trade_winds"
-        android:inputType="textPersonName"
-        android:text="Game Over!!!"
-        android:visibility="invisible"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="288dp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="191dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="92dp"
+        android:text="SELECTIONS: 0"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="#ED6B42" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="191dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="392dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="92dp"
+        android:text="PAIRED: 0/4"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="331dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="@font/aref_ruqaa"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton1"
+        app:layout_constraintVertical_bias="0.655" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,6 +8,10 @@
         <entry key="app/src/main/res/drawable/ic_code.xml" value="0.1515" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1515" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/pop2.xml" value="0.2644927536231884" />
+        <entry key="app/src/main/res/layout/pop3.xml" value="0.2644927536231884" />
+        <entry key="app/src/main/res/layout/pop4.xml" value="0.2644927536231884" />
+        <entry key="app/src/main/res/layout/popwindowlayout.xml" value="0.335" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/echo show.xml" value="0.1515" />
       </map>
     </option>
